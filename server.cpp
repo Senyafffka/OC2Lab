@@ -125,7 +125,6 @@ int main()
     	        
     	        if (bytes_rec > 0)
     	        {
-    	            buffer[bytes_rec] = '\0';
     	            printf("Received %zu bytes.\n", bytes_rec);
     	        }
     	        else if (bytes_rec == 0)
